@@ -50,7 +50,7 @@ import Contract from "./components/contract";
 import SignUp from "./components/signUp";
 import Login from "./components/login";
 import ForgotPassword from "./components/forgotPassword";
-import config from "../src/config";
+// import config from "../src/config";
 import Dynamic_Routes from "./components/dyanmic_routes/index";
 import HealthCare from "./components/admin/HealthCare/HealthCare";
 import RealEstate from "./components/admin/RealEstate/RealEstate";
@@ -64,7 +64,7 @@ export const App = () => {
     <BrowserRouter basename={`${config.publicPath}`}>
       <Routes>
         {/* Home Routes */}
-        <Route path="/index" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/index-2" element={<Home2 />} />
         <Route path="/index-3" element={<Home3 />} />
         <Route path="/index-4" element={<Home4 />} />
