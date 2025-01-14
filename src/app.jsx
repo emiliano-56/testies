@@ -50,7 +50,7 @@ import Contract from "./components/contract";
 import SignUp from "./components/signUp";
 import Login from "./components/login";
 import ForgotPassword from "./components/forgotPassword";
-import config from "config";
+import config from "../src/config";
 import Dynamic_Routes from "./components/dyanmic_routes/index";
 import HealthCare from "./components/admin/HealthCare/HealthCare";
 import RealEstate from "./components/admin/RealEstate/RealEstate";
